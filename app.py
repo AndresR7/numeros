@@ -47,7 +47,7 @@ if not all([modelo_d1, modelo_c2, modelo_c3]):
 st.subheader("🖌️ Dibuja un número")
 canvas_result = st_canvas(
     fill_color="white",
-    stroke_width=10,
+    stroke_width=12,
     stroke_color="black",
     background_color="white",
     height=280,
@@ -125,5 +125,6 @@ if st.button("Predecir"):
 
     else:
         st.warning("⚠️ Por favor, dibuja un número antes de predecir.")
+
 
 
